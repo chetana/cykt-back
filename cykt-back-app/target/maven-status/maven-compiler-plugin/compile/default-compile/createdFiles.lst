@@ -1,6 +1,0 @@
-io/cykt/back/app/controller/SeiyuController.class
-io/cykt/back/app/CyKtBackApp.class
-io/cykt/back/app/entity/SeiyuEntity.class
-io/cykt/back/app/dto/SeiyuDto.class
-io/cykt/back/app/service/SeiyuService.class
-io/cykt/back/app/repository/SeiyuRepository.class
