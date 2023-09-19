@@ -1,5 +1,6 @@
 package io.cykt.back.app;
 
+import com.google.cloud.spring.data.datastore.repository.config.EnableDatastoreRepositories;
 import com.google.common.collect.Lists;
 import io.cykt.back.app.entity.SeiyuEntity;
 import io.cykt.back.app.repository.SeiyuRepository;
@@ -11,6 +12,7 @@ import org.springframework.shell.standard.ShellMethod;
 
 @ShellComponent
 @SpringBootApplication
+@EnableDatastoreRepositories
 @AllArgsConstructor
 public class CyKtBackApp {
     private final SeiyuRepository seiyuRepository;

@@ -5,6 +5,4 @@ spring:
     gcp:
       datastore:
         project-id: cykt-399216
-        credentials:
-          location: classpath:chemin/vers/votre/fichier-de-credentials.json
 
